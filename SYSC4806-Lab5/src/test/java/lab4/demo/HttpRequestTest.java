@@ -20,8 +20,9 @@ public class HttpRequestTest {
     private TestRestTemplate restTemplate;
 
     @Test
-    public void greetingShouldReturnDefaultMessage() throws Exception {
-        assertThat(this.restTemplate.getForObject("http://localhost:" + port + "/",
-                String.class)).contains("Hello, World");
+    public void addressBookShouldBeEmpty() throws Exception {
+        String url = "http://localhost:" + this.port + "/addressbook";
+        System.out.println(this.restTemplate.getForObject(url, String.class));
     }
+
 }

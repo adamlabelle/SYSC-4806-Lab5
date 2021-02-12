@@ -16,7 +16,10 @@ public class theController {
         this.bookRepo = bookRepo;
         this.buddyRepo = buddyRepo;
     }
-
+    @GetMapping("/greeting")
+    public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
+        return "greeting";
+    }
 
     @GetMapping("/addressbook")
     public String addressBook(@RequestParam(name="ID", required=true) Integer ID,

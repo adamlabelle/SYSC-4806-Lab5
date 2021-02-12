@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/SYSC4806-Lab5-Adam.iml" filepath="$PROJECT_DIR$/.idea/SYSC4806-Lab5-Adam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SYSC4806-Lab5/demo.iml" filepath="$PROJECT_DIR$/SYSC4806-Lab5/demo.iml" />
+    </modules>
+  </component>
+</project>

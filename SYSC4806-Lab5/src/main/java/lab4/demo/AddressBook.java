@@ -30,6 +30,8 @@ public class AddressBook {
         this.buddies.add(buddy);
     }
 
+
+    @OneToMany(cascade = CascadeType.ALL)
     public List<BuddyInfo> getBuddies(){
         return buddies;
     }

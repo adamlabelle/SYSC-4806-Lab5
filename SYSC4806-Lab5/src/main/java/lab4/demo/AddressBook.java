@@ -22,10 +22,6 @@ public class AddressBook {
         this(null);
     }
 
-    public Long getId() {
-        return id;
-    }
-
     public void setBuddies(List<BuddyInfo> buddies) {
         this.buddies = buddies;
     }
@@ -57,5 +53,8 @@ public class AddressBook {
         }
         return returnValue;
     }
-}
 
+    public Long getId() {
+        return id;
+    }
+}

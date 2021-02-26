@@ -1,5 +1,4 @@
 package lab4.demo;
-
 import javax.persistence.*;
 
 @Entity
@@ -12,6 +11,7 @@ public class BuddyInfo {
     private String phoneNumber;
 
     @ManyToOne
+    @JoinColumn(name = "addressbookId")
     private AddressBook addressBook;
 
     protected BuddyInfo(){
